@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/v3")
 public class HomeController {
-    @GetMapping("/hola")
+    @GetMapping("/personas")
     public String index() {
         return "HOLA A TODOS";
     }
